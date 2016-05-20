@@ -1,0 +1,21 @@
+This script uses Google Geomap API to find the exact address of a given location.
+Written using Python 2
+
+It makes use of JSON as the wire format which google uses for this API.
+Deserialization of the JSON file is done using the inbuilt JSON library in python.
+
+Steps:
+1. Download the geojson.py file
+2. run on the Command prompt or powershell
+3. Enter any location 
+4. wait
+5. get the Exact Address of that location, latitude, longititude.
+
+Sample output:
+
+PS C:\Users\CeaZar\Desktop> python geojson.py
+Enter Location: Vrindavan Society
+http://maps.googleapis.com/maps/api/geocode/json?sensor=false&address=Vrindavan+Society
+lat 19.208153 lng 72.9851782
+Vrindavan Society, Thane West, Thane, Maharashtra 400601, India
+
